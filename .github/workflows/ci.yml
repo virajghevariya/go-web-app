@@ -43,7 +43,6 @@ jobs:
       uses: golangci/golangci-lint-action@v5
       with:
         version: v1.56.2 
-        work-directory: ./static/
   push:
     runs-on: ubuntu-latest
 
